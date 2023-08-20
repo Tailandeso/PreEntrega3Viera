@@ -1,0 +1,33 @@
+.quince-p{
+    text-align: center;
+    color: $clarito-beige;
+    padding: 30px;
+    font-size: x-large;
+    padding:2% 7%; 
+    text-align: center;
+}
+@media screen and (max-width: 747px){
+    .quince-p {
+    font-size: medium;
+    }
+}
+
+.quince-videos {
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10%;
+
+    .video-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -10px; 
+    }
+    iframe {
+    margin: 10px; 
+    }
+}

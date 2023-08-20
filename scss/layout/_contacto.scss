@@ -1,0 +1,38 @@
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    input,
+    select,
+    textarea{
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(69, 81, 34, 0.514);
+        }
+    textarea {
+    height: 120px;
+    color: $color-primary;
+    }
+    input[type="submit"] {
+    background-color: rgba(69, 81, 34, 0.514);
+    color: $color-primary;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(215, 231, 152);
+        color: #043911; ;
+        }
+    }
+}
+
+.form-text{
+    color:$color-primary;
+}

@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.h1-titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    padding: 15px;
+    color: $clarito-beige;
+    font-family: satisfy;
+}
+
+#logo {
+    width: 100px; 
+    height: auto; 
+    margin: 40px;
+    }
+
+.off-canva-navbar {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        display: inline-block;
+    }
+
+    li a {
+        display: inline-block;
+        padding: 30px;
+        color:$clarito-beige;
+        font-size: 15px;
+        font-family: ysabeau;
+        transition: 1s;
+        &:hover{
+            color: $color-primary;
+            font-size: medium;
+        } 
+    } 
+    }
+
+
+@media (max-width: 767px){
+    .offcanvas.offcanvas-end{
+    width: 40%;}  
+}
+
+@media (max-width: 767px){
+    .off-canva-navbar ul{
+    flex-direction: column;
+    text-align: justify;
+    justify-content: left;
+        }
+    }
+
+.navbar-toggler {
+    background-color: $clarito-beige;
+    &-icon {
+        background-color: $clarito-beige;
+        }
+    }
+
+.offcanvas-title{
+    color: $clarito-beige;
+    }

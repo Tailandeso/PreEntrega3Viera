@@ -1,0 +1,42 @@
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 (9 dividido por 16) */
+    overflow: hidden;
+}
+
+.videointro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.index-text{
+    display: flex;
+    justify-content: center;
+}
+
+.index-texto{
+    text-align: center;
+    margin: 150px 200px ;
+    font-size: xx-large;
+    color: $clarito-beige;
+    transition: 1s;
+    &:hover{
+        color: rgb(215, 231, 152);
+        opacity: 100%;
+        }
+}
+
+@media screen and (max-width: 747px) {
+    .index-texto {
+    font-size: x-large;
+    }
+}
