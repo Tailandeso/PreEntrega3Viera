@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/favicon-16x16.png" type="image/png">
+    <title>Fede Farrell</title>
+    <link rel="stylesheet" href="https://use.typekit.net/nnq8ftq.css">
+</head>
+
+<body>
+<!-- header -->
+    <header>
+      <!-- NavBar responsive con bootstrap >> hamburguesa al minimizar -->
+      <nav class="navbar bg-body-tertiary navbar-expand-md">
+        <div class="container-fluid">
+          <a href="../index.html">
+            <img src="../images/fedelogo.png" alt="Logo de fede" id="logo">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="off-canva-navbar">
+                    <ul>
+                        <li><a href="../index.html">INICIO</a></li>
+                        <li><a href="quiensoy.html">BIO</a></li>
+                        <li><a href="musica.html">MÚSICA</a></li>
+                        <li><a href="quince.html">15000 KM</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="h1-titulo">Contacto</h1>
+
+</header>
+
+
+
+<!-- main -->
+<main>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <form method="post" class="contact-form">
+        <div class="form-group">
+          <label class="form-text" for="nombre">Nombre y Apellido:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Armando Paredes" required>
+        </div>
+        <div class="form-group">
+          <label class="form-text" for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="armandoparedes@gmail.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-text" for="pais">País:</label>
+          <select class="form-text" id="pais" name="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-text" for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Enviar">
+        </div>
+      </form>
+</body>
+
+
+<p class="seguirviaje">Viaja conmigo a través de mis redes sociales</p>
+
+
+</main>
+
+<!-- footer -->
+<footer>
+  <div class="button-container">
+      <a href="https://www.instagram.com/fedefarrell/" target="_blank" class="btn btn-success">Instagram</a>
+      <a href="https://www.facebook.com/FedeFarrellOficial" target="_blank" class="btn btn-success">Facebook</a>
+      <a href="https://twitter.com/FedeFarrell" target="_blank" class="btn btn-success">Twitter</a>
+      <a href="https://www.youtube.com/@fedefarrell" target="_blank" class="btn btn-success">Youtube</a>
+  </div>
+</footer>
+    
+<!-- script bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

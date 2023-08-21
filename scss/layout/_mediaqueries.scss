@@ -1,0 +1,56 @@
+
+//navbar//
+
+@media (max-width: 767px){
+    .offcanvas.offcanvas-end{
+    width: 40%;}  
+}
+
+@media (max-width: 767px){
+    .off-canva-navbar ul{
+    flex-direction: column;
+    text-align: justify;
+    justify-content: left;
+        }
+    }
+
+// Index //
+
+    @media screen and (max-width: 747px) {
+        .index-texto {
+        font-size: x-large;
+        margin: 10%;
+        }
+    }
+
+
+//musica//
+
+
+    @media (max-width: 767px){
+        .spotify-iframes{
+        flex-direction: column;
+        text-align: justify;
+        justify-content: left;
+        }
+    }
+
+//quien soy//
+
+    @media screen and (max-width: 747px) {
+        .quiensoy-p {
+        font-size: medium;
+        }
+    }
+
+//quince//
+
+
+
+
+//footer//
+    @media screen and (max-width: 747px) {
+        .seguirviaje {
+        font-size: medium;
+        }
+    }
