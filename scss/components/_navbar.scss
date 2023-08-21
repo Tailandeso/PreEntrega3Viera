@@ -48,6 +48,23 @@
     } 
     }
 
+<<<<<<< HEAD
+=======
+
+@media (max-width: 767px){
+    .offcanvas.offcanvas-end{
+    width: 40%;}  
+}
+
+@media (max-width: 767px){
+    .off-canva-navbar ul{
+    flex-direction: column;
+    text-align: justify;
+    justify-content: left;
+        }
+    }
+
+>>>>>>> 83462969abdecf9d9743d3848bbf33d2a9001a0b
 .navbar-toggler {
     background-color: $clarito-beige;
     &-icon {
