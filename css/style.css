@@ -28,7 +28,7 @@ a {
   font-family: satisfy;
 }
 
-#logo {
+.logo {
   width: 100px;
   height: auto;
   margin: 40px;
