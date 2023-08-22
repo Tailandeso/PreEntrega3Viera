@@ -12,7 +12,7 @@
     justify-content: center;
 }
 
-.btn {
+.btn.btn-success {
     border: none;
     border-radius: 50px; 
     padding: 10px 20px;
@@ -21,23 +21,11 @@
     color: $color-primary;
     font-size: 16px;
     cursor: pointer;
-}
-
-.btn-success {
     background-color: rgba(69, 81, 34, 0.514);
     
     &:hover {
     opacity: 0.8;
     background-color: rgb(215, 231, 152);
     color: #043911;
-    }
 }
-
-@media (max-width: 420px){
-    .button-container{ 
-    display: grid;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    }
 }
