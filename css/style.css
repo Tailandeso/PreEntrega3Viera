@@ -60,18 +60,6 @@ a {
   font-size: medium;
 }
 
-@media (max-width: 767px) {
-  .offcanvas.offcanvas-end {
-    width: 40%;
-  }
-}
-@media (max-width: 767px) {
-  .off-canva-navbar ul {
-    flex-direction: column;
-    text-align: justify;
-    justify-content: left;
-  }
-}
 .navbar-toggler {
   background-color: #E7DFD4;
 }
@@ -92,11 +80,6 @@ a {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 747px) {
-  .seguirviaje {
-    font-size: medium;
-  }
-}
 .button-container {
   display: flex;
   justify-content: center;
@@ -164,11 +147,6 @@ a {
   opacity: 100%;
 }
 
-@media screen and (max-width: 747px) {
-  .index-texto {
-    font-size: x-large;
-  }
-}
 .quiensoy-p {
   text-align: center;
   color: #E7DFD4;
@@ -177,11 +155,6 @@ a {
   padding: 5% 10%;
 }
 
-@media screen and (max-width: 747px) {
-  .quiensoy-p {
-    font-size: medium;
-  }
-}
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -214,11 +187,6 @@ a {
   text-align: center;
 }
 
-@media screen and (max-width: 747px) {
-  .quince-p {
-    font-size: medium;
-  }
-}
 .quince-videos {
   display: flex;
   text-align: center;
@@ -254,13 +222,6 @@ a {
   margin-bottom: 60px;
 }
 
-@media (max-width: 767px) {
-  .spotify-iframes {
-    flex-direction: column;
-    text-align: justify;
-    justify-content: left;
-  }
-}
 .contact-form {
   max-width: 400px;
   margin: 0 auto;
@@ -297,6 +258,54 @@ a {
 
 .form-text {
   color: white;
+}
+
+@media (max-width: 767px) {
+  .offcanvas.offcanvas-end {
+    width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .off-canva-navbar ul {
+    flex-direction: column;
+    text-align: justify;
+    justify-content: left;
+  }
+}
+@media (max-width: 767px) {
+  .logo {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 747px) {
+  .h1-titulo {
+    font-size: small;
+    margin: 10%;
+  }
+}
+@media screen and (max-width: 747px) {
+  .index-texto {
+    font-size: x-large;
+    margin: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .spotify-iframes {
+    flex-direction: column;
+    text-align: justify;
+    justify-content: left;
+  }
+}
+@media screen and (max-width: 747px) {
+  .quiensoy-p {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 747px) {
+  .seguirviaje {
+    font-size: medium;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
