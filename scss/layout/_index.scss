@@ -1,5 +1,4 @@
 
-
 .video-container {
     position: relative;
     width: 100%;
@@ -7,22 +6,18 @@
     padding-bottom: 56.25%; /* Relación de aspecto 16:9 (9 dividido por 16) */
     overflow: hidden;
 }
+// Mixin incluido //
 
 .videointro {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    @include video;
 }
-
 
 .index-text{
     display: flex;
     justify-content: center;
 }
 
+//   hover  //
 .index-texto{
     text-align: center;
     margin: 150px 200px ;
