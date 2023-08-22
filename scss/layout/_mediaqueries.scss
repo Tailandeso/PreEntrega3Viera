@@ -80,7 +80,17 @@
 
 //quince//
 
+@media screen and (max-width: 747px) {
+    .quience-p {
+    font-size: small;
+    }
+}
 
+@media screen and (max-width: 400px) {
+    .quience-p {
+    font-size: x-small;
+    }
+}
 
 
 //footer//
