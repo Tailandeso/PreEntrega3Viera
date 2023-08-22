@@ -249,25 +249,25 @@ a {
   color: white;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .offcanvas.offcanvas-end {
     width: 40%;
   }
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .off-canva-navbar ul {
     flex-direction: column;
     text-align: justify;
     justify-content: left;
   }
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .logo {
     width: 60px;
     height: 60px;
   }
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .logo {
     width: 50px;
     height: 50px;
@@ -289,7 +289,7 @@ a {
     margin: 5%;
   }
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .spotify-iframes {
     flex-direction: column;
     text-align: justify;
@@ -298,7 +298,12 @@ a {
 }
 @media screen and (max-width: 747px) {
   .quiensoy-p {
-    font-size: medium;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 400px) {
+  .quiensoy-p {
+    font-size: x-small;
   }
 }
 @media screen and (max-width: 747px) {
@@ -311,7 +316,7 @@ a {
     font-size: small;
   }
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .button-container {
     display: grid;
     position: relative;
@@ -320,12 +325,34 @@ a {
     height: 50%;
   }
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 747px) {
   .btn.btn-success {
     display: grid;
     position: relative;
     align-items: center;
     justify-content: center;
+    border: none;
+    border-radius: 25px;
+    padding: 7px 12px;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btn.btn-success {
+    display: grid;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
   }
 }
 
